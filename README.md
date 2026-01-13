@@ -61,7 +61,8 @@ Evaluated using BLEU score
 
 Faster convergence compared to non-attention models.
 
-Results
+Results :
+
 Metric	Without Attention	With Luong Attention
 BLEU Score	0.87	0.97
 Training Accuracy	–	99.79%
