@@ -22,4 +22,47 @@ Pretrained GloVe embeddings integration
 
 High BLEU score and training accuracy
 
-Efficient and stable model training
+Efficient and stable model training.
+
+Tech Stack :
+
+Python
+TensorFlow / Keras
+Natural Language Processing (NLP)
+Seq2Seq Models
+LSTM Networks
+Luong Attention Mechanism
+GloVe Word Embeddings.
+
+Workflow
+1️) Data Preparation
+
+Curated 160K English–Hindi sentence pairs
+
+Tokenization and text normalization
+
+Vocabulary construction (20K+ tokens)
+
+Sequence padding for stable training
+
+2️) Model Architecture
+
+LSTM-based Encoder–Decoder
+
+Luong Attention for dynamic context weighting
+
+GloVe embeddings for semantic representation
+
+3️) Training & Evaluation
+
+Attention-based model trained for improved alignment
+
+Evaluated using BLEU score
+
+Faster convergence compared to non-attention models.
+
+Results
+Metric	Without Attention	With Luong Attention
+BLEU Score	0.87	0.97
+Training Accuracy	–	99.79%
+Convergence Speed	Slower	Faster.
